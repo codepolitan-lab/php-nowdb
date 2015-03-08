@@ -1,5 +1,5 @@
 # php-nowdb
-NowDB Wrapper/Library for NowDB - The Simplest Database Service Ever!
+Wrapper/Library for NowDB - The Simplest Database Service Ever!
 
 Jika anda belum mengetahui apa itu nowdb silahkan buka link http://nowdb.net/docs
 
