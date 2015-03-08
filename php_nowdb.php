@@ -6,8 +6,8 @@ Simple PHP Lib For Nowdb.
 Nowdb is REST api based database. We can call it Dbaas (Database as a service)
 Nowdb use MongoDB as its engine.
 
-Author : Gemblue
-Url : http://github.com/gemblue
+Author : Codepolitan Team
+Url : http://github.com/nyankod
 Version : 0.1
 Dependency : cURL
 */
