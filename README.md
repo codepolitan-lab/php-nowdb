@@ -47,6 +47,4 @@ Silahkan baca kembali dokumentasi petunjuk integrasi library masing-masing frame
 		print_r($php_nowdb->select('users', 10));
 		...
 
-Jika ada pertanyaan silahkan kirim email ke ahmadoriza@gmail.com 
-
 Selamat mengulik !
