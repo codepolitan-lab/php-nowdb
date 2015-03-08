@@ -1,5 +1,5 @@
 # php-nowdb
-NowDB Wrapper/Library for NowDB - The Simplest Database Service Ever!
+Wrapper/Library for NowDB - The Simplest Database Service Ever!
 
 Jika anda belum mengetahui apa itu nowdb silahkan buka link http://nowdb.net/docs
 
@@ -46,7 +46,5 @@ Silahkan baca kembali dokumentasi petunjuk integrasi library masing-masing frame
 		$this->php_nowdb = new Libraries\php_nowdb;
 		print_r($php_nowdb->select('users', 10));
 		...
-
-Jika ada pertanyaan silahkan kirim email ke ahmadoriza@gmail.com 
 
 Selamat mengulik !
