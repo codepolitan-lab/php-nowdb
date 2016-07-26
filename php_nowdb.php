@@ -15,16 +15,16 @@ Dependency : cURL
 class php_nowdb {
 	
 	// Credential
-	var $app_id = '54fbd4b28d909e3423aae9ff'; // Change with yours
-	var $token = '537ce7758d909ee80509f015'; // Change with yours
-	var $project = 'codepolitan_records'; // Change with yours
+	public $app_id = '54fbd4b28d909e3423aae9ff'; // Change with yours
+	public $token = '537ce7758d909ee80509f015'; // Change with yours
+	public $project = 'codepolitan_records'; // Change with yours
 	
 	// API Url
-	var $select_url = 'http://io.nowdb.net/operation/select_all';
-	var $insert_url = 'http://io.nowdb.net/operation/insert';
-	var $update_by_id_url = 'http://io.nowdb.net/operation/update_id';
-	var $delete_by_id_url = 'http://io.nowdb.net/operation/delete_id';
-	var $select_where_like_url = 'http://io.nowdb.net/operation/select_wherelike';
+	public $select_url = 'http://io.nowdb.net/operation/select_all';
+	public $insert_url = 'http://io.nowdb.net/operation/insert';
+	public $update_by_id_url = 'http://io.nowdb.net/operation/update_id';
+	public $delete_by_id_url = 'http://io.nowdb.net/operation/delete_id';
+	public $select_where_like_url = 'http://io.nowdb.net/operation/select_wherelike';
 	
 	// Select
 	public function select($table, $limit = 5)
