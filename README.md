@@ -26,8 +26,8 @@ php_nowdb.php
 	class php_nowdb {
 
 		// Credential
-		var $app_id = '54fbd4b28d909e3423aae9ff'; // Change with yours
-		var $token = '537ce7758d909ee80509f015'; // Change with yours
+		public $app_id = '54fbd4b28d909e3423aae9ff'; // Change with yours
+		public $token = '537ce7758d909ee80509f015'; // Change with yours
 
 	...
 
