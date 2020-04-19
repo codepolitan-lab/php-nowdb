@@ -9,10 +9,10 @@ For now, this sample is available on native PHP only. For trying it out on a fra
 
 ### Usage
 
-Just include NowDB class in your environment.
+Just include NowDB class in your environment then instantiate.
 
 ```php
-include_once ( APPPATH . 'libraries/php_nowdb.php' );
+include_once ('NowDB.php');
 
 $NowDB = new NowDB();
 print_r($NowDB->select('users', 10));
