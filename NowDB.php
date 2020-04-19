@@ -1,20 +1,18 @@
 <?php
 
-/*
-Simple PHP Lib For Nowdb.
+/**
+ * Simple Interface for NowDB.
+ * 
+ * Nowdb is REST api based database. We can call it Dbaas (Database as a service)
+ * Nowdb use MongoDB as its engine.
+ * 
+ * @author Gemblue
+ * @package Main
+ */
 
-Nowdb is REST api based database. We can call it Dbaas (Database as a service)
-Nowdb use MongoDB as its engine.
-
-Author : Codepolitan team
-Url : http://github.com/nyankod
-Version : 0.1
-Dependency : cURL
-*/
-
-class php_nowdb {
+class NowDB {
 	
-	// Credential
+	// Credentials
 	public $app_id = '54fbd4b28d909e3423aae9ff'; // Change with yours
 	public $token = '537ce7758d909ee80509f015'; // Change with yours
 	public $project = 'codepolitan_records'; // Change with yours
