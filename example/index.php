@@ -1,7 +1,7 @@
 <?php
-include('php_nowdb.php');
+include('../NowDB.php');
 
-$php_nowdb = new php_nowdb();
+$NowDB = new NowDB();
 
 /*
 // Sample insert
@@ -12,7 +12,7 @@ $field = array(
 	'skill' => 'Android, Javascript'
 );
 
-$query = $php_nowdb->insert('users', $field);
+$query = $NowDB->insert('users', $field);
 echo '<pre>';
 print_r($query);
 echo '</pre>';
@@ -25,7 +25,7 @@ $field = array(
 	'skill' => 'Memacul, Memanah'
 );
 
-$query = $php_nowdb->update_by_id('users', $field);
+$query = $NowDB->update_by_id('users', $field);
 if ($query)
 {
 	echo 'Berhasil mengupdate';
@@ -34,7 +34,7 @@ if ($query)
 
 /*
 // Sample delete by id
-$query = $php_nowdb->delete_by_id('users', '54fbe2ae8d909e8328aae9ff');
+$query = $NowDB->delete_by_id('users', '54fbe2ae8d909e8328aae9ff');
 
 if ($query)
 {
@@ -49,7 +49,7 @@ $field = array(
 	'like_value' => 'Java'
 );
 
-$query = $php_nowdb->select_where_like('users', $field);
+$query = $NowDB->select_where_like('users', $field);
 
 echo '<pre>';
 print_r($query);
@@ -57,7 +57,7 @@ echo '</pre>';
 */
 
 // Sample select
-$query = $php_nowdb->select('users', 10);
+$query = $NowDB->select('users', 10);
 echo '<pre>';
 print_r($query);
 echo '</pre>';
